@@ -1,0 +1,118 @@
+* {
+	box-sizing: border-box;
+}
+body{
+	background-color:#f9f9f9;
+	font-size:16px;
+	color:#444;
+	font-family: sans-serif;
+}
+ 
+.content{
+	width: 80%;
+	margin: 10px auto;
+}
+
+.banner {
+	background-image: url(banner.jpg);
+	background-size: cover;
+	min-height: 250px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
+
+.tanggal {
+	padding-right: 10px;
+	text-align: right;
+}
+
+/*header*/
+header{
+	padding: 50px;
+	color: whitesmoke;
+	text-align: right;
+}
+
+header h1.judul,
+header h3.deskripsi{
+	text-align: center;	
+}
+ 
+/*menu navigasi*/
+.menu{
+	background-color: #87CEFA;
+	border: 1px solid #f0f0f0;
+	border-radius: 8px;	
+	margin-bottom: 10px;
+}
+ 
+div.menu ul {
+	list-style:none;
+	overflow: hidden;
+}
+
+div.menu tgl {
+	float: right;
+	text-decoration:none;
+	color:red;
+	font-family: sans-serif;
+	font-size:13px;
+	font-weight:500;
+	transition:all 0.3s ease-in-out;
+}
+
+div.menu ul li {
+	float:left;		
+	text-transform:uppercase;
+}
+ 
+div.menu ul li a {
+	display:block;	
+	padding:0 20px;
+	text-decoration:none;
+	color:whitesmoke;
+	font-family: sans-serif;
+	font-size:13px;
+	font-weight:500;
+	transition:all 0.3s ease-in-out;
+}
+ 
+div.menu ul li a:hover,
+div.menu ul li a.hoverover {	
+	cursor: pointer;	
+	color:rgb(255, 0, 0);
+}
+
+ 
+div.body{
+	background-color: white;
+	border-radius: 5px;
+	border: 1px solid #f0f0f0;
+	margin-bottom: 10px;
+}
+ 
+div.halaman{
+	text-align: center;
+	padding: 30px 20px;	
+}
+
+/* Style Grid Body Halaman */
+.kiri {
+    background-color: lightblue;
+    float: left;
+    width: 20%;
+    color: red;
+  }
+
+.main {
+    float: left;
+    width: 60%;
+    padding: 0 20px;
+    overflow: hidden;
+  }
+.kanan {
+    background-color: lightblue;
+    float: left;
+    width: 20%;
+	color: red;
+  }
